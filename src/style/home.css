@@ -1,0 +1,96 @@
+/* desgin scroll in web */
+html::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #ffffff;
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #00000082;
+    border: 3px solid white;
+}
+
+
+
+
+
+
+
+
+.StyleCarousel img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.NEWS1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5%;
+    width: 100%;
+}
+
+
+.NEWScard {
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.NEWScard img {
+    width: 600px;
+    height: 85px;
+    border-radius: 1%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.NEWScard {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.popUpHome h1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.popUpHome p {
+    color: rgba(255, 255, 255, 0.908);
+    font-size: 13px;
+}
+
+.popUpHome img {
+    border-radius: 20%;
+    width: 300px;
+}
+
+
+@media(max-width:991px) {
+
+    .popUpHome h1 {
+        font-size: 23px;
+    }
+}

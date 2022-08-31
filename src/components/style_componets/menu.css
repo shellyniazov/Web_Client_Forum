@@ -1,0 +1,22 @@
+.linksChoise Button p {
+	margin: 1px;
+	width: auto;
+	height: 20px;
+	align-items: center;
+	font-size: 14px;
+}
+
+.Logo img {
+	height: 60px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+@media(max-width:991px) {
+
+	.Logo img {
+		height: 40px;
+		width: auto;
+	}
+}
